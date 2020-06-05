@@ -97,7 +97,7 @@ if n <= 5:
                             row = ""
                             for number, color in numbers.items():
                                 row += f"{color}{number} "
-                            # print(f"{row} {colors[0]} ✘ {colors[5]}", end='\r')
+                            print(f"{row} {colors[0]} ✘ {colors[5]}", end='\r')
 
                             numbers_colors = append_one(numbers_colors,
                                                         number_of_color, True)
